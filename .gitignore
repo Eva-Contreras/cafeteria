@@ -1,0 +1,14 @@
+# Archivos de configuración local
+conexion/config.php
+.env
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración del editor VS Code
+.vscode/
+
+# Dependencias o archivos generados automáticamente
+node_modules/
+dist/
