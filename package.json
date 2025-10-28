@@ -1,0 +1,23 @@
+{
+  "name": "cafeteria_java",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eva-Contreras/cafeteria.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eva-Contreras/cafeteria/issues"
+  },
+  "homepage": "https://github.com/Eva-Contreras/cafeteria#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
