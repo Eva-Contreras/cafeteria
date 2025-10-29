@@ -14,7 +14,11 @@ const unidadesInput = document.getElementById('cantidad_unidades');
 const gramosAbiertosInput = document.getElementById('cantidad_gramos');
 
 // ==================== API FUNCTIONS ====================
-const API_URL = 'https://eva.page.gd/Cafeteria_Java/conexion/productos.php';
+// Para desarrollo local
+// const API_URL = 'http://localhost:3000/api/productos';
+
+// Para producción en Railway
+const API_URL = 'https://tu-app.up.railway.app/api/productos';
 
 // Cargar productos desde la base de datos
 async function cargarProductos() {
